@@ -20,6 +20,10 @@
     cursor: pointer;
 }
 
+.center{
+    text-align: center;
+}
+
 .section-heading{
     max-width: 827px;
     text-align: center;
@@ -42,9 +46,13 @@
 header{
     background-color: #FFF8F3;
     background-image: url('../images/developer.png') , url('../images/header_bg.png');
-    background-position:top left , bottom right;
+    background-position:23px 38px , bottom right;
     background-repeat: no-repeat;
     padding-top: 40px;
+}
+
+.gap{
+    margin-right:30px ;
 }
 
 nav{
@@ -193,5 +201,103 @@ nav{
 .skill-card p{
     font-size: 16px;
     line-height: 28px;
+    color: #757575;
+}
+
+/* resume section */
+
+#resume .resume-container{
+    /* border: 1px solid rgb(197, 124, 14); */
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+         display: flex; 
+    gap: 24px;
+}
+
+.resume-container .section-title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+
+.resume-container .resume-card{
+    /* max-width: 511px; */
+    margin-right: 47px;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #474747;
+}
+
+.card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.footer{
+    background-color: #FFF8F3;
+}
+ 
+
+.flex{
+    display: flex;
+     width: 71%;
+     max-width: 1140px;
+     margin: 0 auto;
+     margin-top: 130px;
+     padding: 130px 0;
+     gap: 116px;
+}
+
+.flex .text-footer{
+    max-width: 562px;
+}
+
+.flex h2{
+   margin-bottom: 20px;
+    color: #181818;
+    font-size: 35px;
+}
+
+.flex p{
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.icon img{
+    margin-right: 24px;
+}
+
+.flex input{
+    width: 400px;
+    padding: 18px 31px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+
+.flex textarea{
+    border: none;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
     color: #757575;
 }
